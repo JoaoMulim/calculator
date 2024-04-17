@@ -1,0 +1,52 @@
+button{
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.wrapper{
+    background-color: rgb(46, 44, 44);
+    border-radius: 1.5em;
+    padding: 1em;
+}
+
+.blueFont{
+    background-color: rgb(34, 33, 33);
+    color: dodgerblue;
+}
+
+.blue{
+    background-color: dodgerblue;
+    color: rgb(245, 239, 239);
+}
+
+.gray{
+    background-color: rgb(75, 75, 75);
+    color: rgb(245, 239, 239);
+}
+
+.orange{
+    background-color: rgb(34, 33, 33);
+    color: orangered;
+}
+
+.result{
+    color: rgb(245, 239, 239);
+    display: flex;
+    justify-content: right;
+    margin-right: 0.5em;
+    font-size: 3.5em;
+}
+
+.zero{
+    background-color: rgb(75, 75, 75);
+    color: rgb(245, 239, 239);
+    width: 6.6em;
+}
